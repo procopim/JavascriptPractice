@@ -1,3 +1,10 @@
+/**
+ * Author: Mark Procopio
+ * Revised: July 6, 2022
+ * @brief Library catalogue object class - parent class is Media
+ * @details Movie and Book subsclasses inherit from Media 
+ */
+ 
 class Media {
   constructor(title){
     this._title = title;
